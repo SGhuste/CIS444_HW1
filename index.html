@@ -1,0 +1,68 @@
+<!-- Author: Shane Ghuste, URL: http://cis444.cs.csusm.edu/ghust001/index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>http://cis444.cs.csusm.edu/ghust001/index.html</h1>
+    <p id="tblDesc">Table includes characteristics of popular tree types</p>
+
+    <table aria-describedby="tblDesc">
+        <caption title="HW1 Table showing tree characteristics">Tree Characteristics</caption>
+    
+        <tbody >
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+                <th id="t" colspan="4">Tree</th>
+            </tr>
+            <tr>
+                <th id="tp" headers="t">Pine</th>
+                <th id="tm" headers="t">Maple</th>
+                <th id="to" headers="t">Oak</th>
+                <th id="tf" headers="t">Fir</th>
+            </tr>
+            <tr>
+                <th id="c" rowspan="4">Characteristic</th>
+                <th id="ch" headers="c">Average Height(feet)</th>
+                <td headers="t tp c ch">65</td>
+                <td headers="t tm c ch">50</td>
+                <td headers="t to c ch">75</td>
+                <td headers="t tf c ch">40</td>
+            </tr>
+            <tr>
+                <th id="cw">Average Width(inches)</th>
+                <td headers="t tp c cw">33</td>
+                <td headers="t tm c cw">24</td>
+                <td headers="t to c cw">30</td>
+                <td headers="t tf c cw">18</td>
+            </tr>
+            <tr>
+                <th id="cl">Typical Lifespan(years)</th>
+                <td headers="t tp c cl">200</td>
+                <td headers="t tm c cl">90</td>
+                <td headers="t to c cl">300</td>
+                <td headers="t tf c cl">60</td>
+            </tr>
+            <tr>
+                <th id="ct">Leaf Type</th>
+                <td headers="t tp c ct">needle-shaped</td>
+                <td headers="t tm c ct">three-lobed</td>
+                <td headers="t to c ct">Symmetric</td>
+                <td headers="t tf c ct">needle-shaped</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
